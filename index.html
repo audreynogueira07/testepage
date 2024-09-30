@@ -71,6 +71,25 @@
                 background-color: #9a67ea;
             }
 
+            .update-info {
+                margin-top: 20px;
+                font-size: 14px;
+                color: #bbbbbb;
+            }
+
+            .update-info span {
+                display: inline-block;
+                margin-left: 5px;
+                font-weight: bold;
+                animation: blink 1s infinite;
+            }
+
+            @keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+
             /* Responsividade */
             @media (max-width: 480px) {
                 h1 {
@@ -87,8 +106,11 @@
     <body>
         <div class="container">
             <h1>Link do Sistema</h1>
-            <a href="https://5d2c-45-168-200-147.ngrok-free.app/dashboard/lista_orcrim/" target="_blank">Acesse o Sistema</a>
+            <a href="https://8a8b-45-168-200-147.ngrok-free.app/dashboard/lista_orcrim/" target="_blank">Acesse o Sistema</a>
             <small>Caso o link não funcione, aguarde 30 segundos, atualize a página e clique novamente. Um novo link é gerado a cada 3 horas.</small>
+            <div class="update-info">
+                Próxima atualização às <span>00:09:42</span>
+            </div>
         </div>
     </body>
     </html>
